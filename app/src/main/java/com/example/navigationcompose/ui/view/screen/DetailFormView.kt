@@ -1,10 +1,13 @@
 package com.example.navigationcompose.ui.view.screen
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -33,15 +36,23 @@ fun DetailFormView(
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        ElevatedButton(
-            onClick = {onBackButtonClicked()}
-        ) {
-            Text("Kembali")
-        }
 
         listDataForm.forEach {data->
             DetailForm (label = data.first,
                 value = data.second)
+        }
+
+        Spacer(modifier = Modifier.padding(16.dp))
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center
+        ) {
+            Button(
+                onClick = { onBackButtonClicked() }
+            ) {
+                Text("Kembali ke Halaman Utama")
+            }
         }
     }
 }

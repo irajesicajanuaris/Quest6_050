@@ -68,12 +68,12 @@ fun MahasiswaApp(
             DetailFormView(
                 mahasiswa = mahasiswaUiState,
                 rencanaStudi = krsStateUi,
-                onBackButtonClicked = {navController.navigate(Halaman.Splash.name){
-                    popUpTo(0){inclusive  = true}
-                } }
-
+                onBackButtonClicked = {
+                    navController.navigate(Halaman.Splash.name) {
+                        popUpTo(0) { inclusive = true }
+                    }
+                }
             )
-
         }
     }
 }
