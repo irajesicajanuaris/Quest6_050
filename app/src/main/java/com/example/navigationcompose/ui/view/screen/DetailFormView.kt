@@ -28,5 +28,21 @@ fun DetailFormView(
         Pair("Kelas",rencanaStudi.Kelas),
     )
 
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(16.dp)
+    ) {
+        ElevatedButton(
+            onClick = {onBackButtonClicked()}
+        ) {
+            Text("Kembali")
+        }
 
+        listDataForm.forEach {data->
+            DetailForm (label = data.first,
+                value = data.second)
+        }
+    }
 }
+
