@@ -72,7 +72,7 @@ fun MahasiswaFormView(
                     id = R.drawable.umy
                 ),
                 contentDescription = "",
-                modifier = Modifier.size(45.dp)
+                modifier = Modifier.size(70.dp)
             )
             Spacer(modifier = Modifier.padding(start = 16.dp))
             Column {
