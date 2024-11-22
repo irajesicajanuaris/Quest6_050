@@ -20,4 +20,13 @@ fun DetailFormView(
     modifier: Modifier = Modifier,
     onBackButtonClicked: () -> Unit
 ) {
+    val listDataForm = listOf(
+        Pair("Nama", mahasiswa.nama),
+        Pair("NIM", mahasiswa.nim),
+        Pair("E-Mail", mahasiswa.email),
+        Pair("MataKuliah", rencanaStudi.Matakuliah),
+        Pair("Kelas",rencanaStudi.Kelas),
+    )
+
+
 }
