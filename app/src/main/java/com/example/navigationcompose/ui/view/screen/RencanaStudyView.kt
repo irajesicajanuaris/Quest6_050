@@ -181,7 +181,6 @@ fun RencanaStudyView(
                     Button(onClick = { onSubmitButtonClicked(listData) }, enabled = checked) {
                         Text(text = "Lanjut")
                     }
-
                 }
             }
         }
