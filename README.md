@@ -12,6 +12,6 @@
 
 
 6. hasil
-   ![Q6_Hasil](https://github.com/user-attachments/assets/d3773000-1d78-4fc7-a97a-6574f0f8583f)
+![Q6_hasilnew](https://github.com/user-attachments/assets/a5a481b3-4167-489f-9c19-a2b84fb87b73)
 
    
