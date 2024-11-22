@@ -3,15 +3,16 @@
 
    
 3. Input Form Mahasiswa
-![Q6_InputDataMhs](https://github.com/user-attachments/assets/7fa3ce7b-42e9-451a-92db-5888bdd75fd9)
+![Q6_InputMhs](https://github.com/user-attachments/assets/daa068a8-8754-40f5-964b-9cae26ed127e)
 
    
 5. Input Rencana Studi
-![Q6_InputMk](https://github.com/user-attachments/assets/aafe3465-5e87-4d25-aa8a-49e6e503d094)
+![Q6_InputMkP](https://github.com/user-attachments/assets/a7c4e79c-7108-4987-8931-ba8d8b412f5e)
+
 
 
 
 6. hasil
-![Q6_hasilnew](https://github.com/user-attachments/assets/a5a481b3-4167-489f-9c19-a2b84fb87b73)
+![Q6_HasilForm](https://github.com/user-attachments/assets/581cf77e-2fbf-47bd-b51c-beb4ef551cf5)
 
    
