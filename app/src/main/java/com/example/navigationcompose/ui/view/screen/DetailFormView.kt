@@ -46,3 +46,18 @@ fun DetailFormView(
     }
 }
 
+@Composable
+fun DetailForm(
+    label:String,value:String
+){
+    Row (
+        modifier = Modifier.fillMaxWidth().padding(top = 10.dp)
+    ){
+        Text(text = label,
+            modifier = Modifier.weight(0.8f))
+        Text(text = ":",
+            modifier = Modifier.weight(0.2f))
+        Text(text = value,
+            modifier = Modifier.weight(2f))
+    }
+}
